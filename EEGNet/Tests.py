@@ -1,0 +1,15 @@
+import numpy as np
+
+a=np.arange(0,160)
+a=a.reshape(40,4)
+print(a.shape)
+#a=a.transpose(# )
+print(a)
+a.transpose()
+print(a)
+input()
+a=np.reshape(a,(1,1,4,40))
+print(a)
+a=np.reshape(a,(4,40))
+print(a)
+print(a.shape)
